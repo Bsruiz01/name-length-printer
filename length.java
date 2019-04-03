@@ -7,11 +7,11 @@ public class Length{
  public static main(String[] args){   
 
 Scanner input = new Scanner(System.in);
-System.out.println("What is your name?");
+System.out.println("Write your security number in word form?");
 String name = input.next();
-System.out.println("Hello, " +name+ ".");
+System.out.println("your social security number is, " +name+ ".");
 int num = name.length();
-System.out.print("Your name has " +num+ "letters");
+System.out.print("It has " +num+ "letters");
 //                    *****************
 //               ******               ******
 //           ****                           ****
